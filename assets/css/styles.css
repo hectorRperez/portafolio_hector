@@ -358,6 +358,10 @@ img{
     width: 43%;
 }
 
+.skills__flutter{
+    width: 15%;
+}
+
 .skills__img{
     border-radius: .5rem;
 }
