@@ -331,16 +331,31 @@ img{
     z-index: var(--z-back);
 }
 
-.skills__html{
-    width: 95%;
+.skills__python{
+    width: 45%;
 }
 
+.skills__node{
+    width: 45%;
+}
+
+.skills__terminal{
+    width: 65%;
+}
+
+.skills__database{
+    width: 40%;
+}
+
+.skills__html{
+    width: 68%;
+}
 .skills__css{
-    width: 85%;
+    width: 68%;
 }
 
 .skills__javascrip{
-    width: 65%;
+    width: 43%;
 }
 
 .skills__img{
