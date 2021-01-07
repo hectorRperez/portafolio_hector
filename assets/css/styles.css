@@ -375,6 +375,10 @@ img{
     row-gap: 2rem;
 }
 
+.work__container_certification{
+    row-gap: 5rem;
+}
+
 .work__img{
     box-shadow: 0 4px 25px rgb(14, 36, 49, .15);
     border-radius: .5rem;
@@ -518,6 +522,12 @@ img{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2,1fr);
         column-gap: 2rem;
+    }
+
+    .work__container_certification{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1,1fr);
+        column-gap: 5rem;
     }
 
     .contact__form{
