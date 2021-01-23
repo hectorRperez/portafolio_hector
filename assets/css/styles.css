@@ -66,6 +66,7 @@ body{
 
 h1,h2,p{
     margin: 0;
+    text-align: justify;
 }
 
 ul{
@@ -332,34 +333,34 @@ img{
 }
 
 .skills__python{
-    width: 60%;
+    width: 29%;
 }
 
 .skills__node{
-    width: 32%;
+    width: 29%;
 }
 
 .skills__terminal{
-    width: 65%;
+    width: 20%;
 }
 
 .skills__database{
-    width: 40%;
+    width: 24%;
 }
 
 .skills__html{
-    width: 68%;
+    width: 23%;
 }
 .skills__css{
-    width: 68%;
+    width: 23%;
 }
 
 .skills__javascrip{
-    width: 43%;
+    width: 26%;
 }
 
 .skills__flutter{
-    width: 38%;
+    width: 35%;
 }
 
 .skills__img{
@@ -427,6 +428,13 @@ img{
 .footer__title{
     font-size: 2rem;
     margin-bottom: var(--mb-4);
+    margin-left: 10px;
+}
+
+.footer__title p{
+    font-size: 0.5rem;
+    margin-bottom: var(--mb-4);
+    margin-left: 10px;
 }
 
 .footer__social{
