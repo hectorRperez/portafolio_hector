@@ -363,6 +363,10 @@ img{
     width: 35%;
 }
 
+.skills__git{
+    width: 40%;
+}
+
 .skills__img{
     border-radius: .5rem;
 }
