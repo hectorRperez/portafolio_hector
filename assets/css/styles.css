@@ -376,6 +376,18 @@ img {
 	width: 43%;
 }
 
+.skills__sass {
+	width: 39%;
+}
+
+.skills__vue {
+	width: 25%;
+}
+
+.skills__bootstrap {
+	width: 37%;
+}
+
 .skills__flutter {
 	width: 35%;
 }
