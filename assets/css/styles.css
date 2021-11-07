@@ -90,7 +90,7 @@ img {
 
 #preloader {
 	/* public\assets */
-	background: #000 url('/assets/img/loader.gif') no-repeat center center;
+	background: #000 url('../img/loader.gif') no-repeat center center;
 	background-size: 25%;
 	opacity: 0.9;
 	height: 100vh;
