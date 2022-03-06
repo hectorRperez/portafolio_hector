@@ -461,7 +461,7 @@ img {
 }
 
 .work__content i {
-	color: black;
+	color: var(--first-color);
 }
 
 /* ======= CERTIFICATION ======= */
