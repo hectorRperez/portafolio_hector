@@ -107,6 +107,7 @@ img {
 	margin-top: var(--mb-2);
 	margin-bottom: var(--mb-4);
 	text-align: center;
+	text-transform: capitalize;
 }
 
 .section-title::after {
@@ -373,7 +374,7 @@ img {
 }
 
 .skills__javascrip {
-	width: 43%;
+	width: 53%;
 }
 
 .skills__sass {
@@ -381,7 +382,7 @@ img {
 }
 
 .skills__vue {
-	width: 25%;
+	width: 45%;
 }
 
 .skills__bootstrap {
@@ -419,16 +420,56 @@ img {
 	overflow: hidden;
 }
 
+.work__img::before {
+	height: 100%;
+	width: 100%;
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	clip-path: circle(0% at 93% 0);
+	transition: 0.3s linear;
+	cursor: pointer;
+}
+
+.work__img:hover::before {
+	clip-path: circle(100%);
+}
+
+.work__img:hover .work__content {
+	top: 5rem;
+	opacity: 1;
+}
+
 .work__img img {
 	transition: 1s;
 	cursor: pointer;
 	height: 100%;
-	background-size: contain;
-	background-position: center;
+	width: 100%;
+	object-fit: fill;
 }
 
-.work__img img:hover {
-	transform: scale(1.1);
+.work__content {
+	height: 100%;
+	width: 100%;
+	top: 7rem;
+	position: absolute;
+	opacity: 0;
+	transition: 0.3s;
+	font-size: 70px;
+}
+
+.work__content i {
+	color: black;
+}
+
+/* ======= CERTIFICATION ======= */
+
+.work__item {
+	box-shadow: 0 4px 25px rgb(14, 36, 49, 0.15);
+	border-radius: 0.5rem;
+	overflow: hidden;
 }
 
 /* ======= CONTACT ======= */
